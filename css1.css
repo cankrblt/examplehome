@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    background-color: white;
+    border: solid 1px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.container > div > button {
+    background-color: beige;
+    color: black;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+.container > a > h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+.arkaplan {
+    background-color: rgb(241, 232, 220);
+    width: 100%;
+    height: 800px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    border: solid 1px;
+    display: inline-block;
+  }
+  
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 5px;
+    text-decoration: none;
+  }
+  
+.nav > ul > li > a:hover {
+    background-color: #555;
+    color: white;
+  }
+ul li {
+    font-size: 23px;
+}
+
+input {
+    padding: 10px;
+}
+.card {
+    width: 190px;
+    height: 254px;
+    background-color: rgb(231, 230, 230);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: inline-block;
+}
+.nav {
+    position: absolute;
+}
